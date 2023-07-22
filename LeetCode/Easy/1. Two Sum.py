@@ -1,9 +1,9 @@
 class Solution:
+    # Time complexity: O(n)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_dict = {}
 
-        # Time complexity: O(n)
-        # n == the number of elements in the input array 'nums'
+        # O(n) | n = the number of elements in the input array 'nums'
         for i, num in enumerate(nums):
             complement = target - num
             # O(1) | Checking if an element exists in the dictionary
