@@ -1,3 +1,3 @@
-Udemy
-Python Data Structures & Algorithms + LEETCODE Exercises
+Udemy\n
+Python Data Structures & Algorithms + LEETCODE Exercises\n
 Scott Barrett
