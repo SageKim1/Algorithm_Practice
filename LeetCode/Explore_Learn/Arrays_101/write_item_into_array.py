@@ -10,3 +10,5 @@ class DVD:
 dvdCollections = [None] * 15
 dvdCollections[7] = DVD("The Avengers", 2012, "Joss Whedon")
 print(dvdCollections[7])
+dvdCollections[7] = DVD("Star Wars", 1977, "George Lucas") # overwritten
+print(dvdCollections[7])
