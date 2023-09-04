@@ -1,4 +1,4 @@
- class Node:
+class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -42,16 +42,17 @@ class LinkedList:
     # WRITE REMOVE_DUPLICATES METHOD HERE #
     # O(n^2) solution that does not use a Set
     def remove_duplicates(self):
-        current = self.Head
+        current = self.head
         
         while current:
             runner = current
-            while runner.next != None:
+            while runner.next:
                 if runner.next.value == current.value:
                     runner.next = runner.next.next
                     self.length -= 1
+                else:
                     runner = runner.next
-            current current.next
+            current = current.next
     #######################################
     
 
