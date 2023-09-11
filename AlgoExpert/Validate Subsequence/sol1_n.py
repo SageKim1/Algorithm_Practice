@@ -7,6 +7,4 @@ def isValidSubsequence(array, sequence):
         if item == sequence[-1]:
             sequence.pop()
             
-    if len(sequence) == 0:
-        return True
-    return False
+    return len(sequence) == 0
