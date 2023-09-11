@@ -1,5 +1,5 @@
 def isValidSubsequence(array, sequence):
-    # Write your code here.
+    # Iterate array
     # Time: O(N) | N: length of array
     # Space: O(1)
     for item in reversed(array):
