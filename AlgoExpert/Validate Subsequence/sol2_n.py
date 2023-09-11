@@ -1,5 +1,5 @@
 def isValidSubsequence(array, sequence):
-    # Write your code here.
+    # One Pointer
     # Time: O(N) | N: length of array
     # Space: O(1)
     ptr = 0
