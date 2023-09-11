@@ -9,6 +9,4 @@ def isValidSubsequence(array, sequence):
         if item == sequence[ptr]:
             ptr += 1
 
-    if ptr == len(sequence):
-        return True
-    return False
+    return ptr == len(sequence)
