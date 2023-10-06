@@ -1,5 +1,6 @@
 # Average: O(log(n)) time | O(log(n)) space
 # Worst: O(n) time | O(n) space
+# (Space Complexity) The depth of recursive calls is related to the height of the tree.
 
 def findClosestValueInBst(tree, target):
     # Write your code here.
